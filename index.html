@@ -6,6 +6,9 @@
   <meta name="author" content="Steven Peralta">
   <meta name="description" content="Landing page with information about the universe">
   <link rel="stylesheet" href="/styles/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <title>Universe Landing Page</title>
 </head>
 <body>
@@ -15,7 +18,7 @@
   <div class="container">
     <p>Universe</p>
     <nav>
-      <ul>
+      <ul class="header-links">
         <li>
           <a href="#">Home</a>
         </li>
@@ -27,28 +30,74 @@
         </li>
       </ul>
     </nav>
-    <div class="hero-text">
-      <h1>A Universe Full Of Mystery</h1>
-      <p>Just how vast is our Universe? So much not yet discovered, yet even what we have found, still leaves us with even more questions. Join us in learning about the Universe!</p>
-      <img src="/images/boliviainteligente-MO6wb4hdhZo-unsplash.jpg" alt="black hole" width="400" height="200">
-      <button>Learn More</button>
-    </div>
   </div>
   </header>
 
 
   <main>
+
+    <div class="hero">
+      <div class="hero-text">
+      <h1>A Universe Full Of Mystery</h1>
+      <p>Just how vast is our Universe? So much not yet discovered, yet even what we have found, still leaves us with even more questions. Join us in learning about the Universe!</p>
+      <button class="learn-more">Learn More</button>
+    </div>
+      <img class="hole" src="/images/boliviainteligente-MO6wb4hdhZo-unsplash.jpg" alt="black hole" width="400" height="250">
+    </div>
+
     <div class="container-two">
-      <h2>Common Objects Within Our Universe</h2>
-      <img alt="planet">
+
+      <div class="title">
+        <h2>Common Objects Within Our Universe</h2>
+      </div>
+
+    <div class="card-info">
+
+      <div class="planet">
+      <img src="/images/nasa-yZygONrUBe8-unsplash.jpg" alt="planet" width="200" height="200">
       <p>Our planet, our home. Where every person you've known and ever will know, will live out there lives. A small speck within the vastness of our Universe.</p>
-      <img alt="black hole">
+    </div>
+
+
+      <div class="black-hole">
+      <img src="/images/boliviainteligente-MO6wb4hdhZo-unsplash.jpg" alt="black hole" width="200" height="200">
       <p>One of if not the most mysterious object in the Universe. We know how they form and what would most likely happen if you went in one, but there's still so much to learn about these.</p>
-      <img alt="galaxy">
+    </div>
+
+      <div class="galaxy">
+      <img src="/images/bryan-goff-RF4p4rTM-2s-unsplash.jpg" alt="galaxy" width="200" height="200">
       <p>This is where we live, but this only one of millions, if not more that we know of. Who knows what lies within all those other galaxies.</p>
-      <img alt="nuetron star">
-      <p>Another very mysterious object that I will research more about and then write about here. </p>
+    </div>
+
+      <div class="star">
+      <img src="/images/wil-stewart-RpDA3uYkJWM-unsplash.jpg" alt="stars" width="200" height="200">
+      <p>They are what brighten up the sky at night, and provide us with beautiful visuals. They also play a role in giving way to the possibility of life.</p>
+    </div>
+  </div>
+    </div>
+
+    <div class="container-three">
+      <div class="container-content">
+      <p class="quote">
+        Are we alone? I don't know, but whatever the answer is, it'll be equally scary. Very interesting thing to think about, but don't stress out about it.
+      </p>
+      <p class="author">-Beef Boy</p>
+    </div>
+    </div>
+
+    <div class="container-four">
+      <div class="sign-up">
+        <p>
+          Sign Up Now!
+        </p>
+        <p>If you want to become an expert of the Universe, click that sign up button right now.</p>
+        <button>Sign Up</button>
+      </div>
     </div>
   </main>
+
+  <footer>
+    <p>Copyright &copy; TheOdinProject 2024</p>
+  </footer>
 </body>
 </html>
