@@ -184,26 +184,77 @@ ul li a {
 .container-content {
   display: flex;
   flex-direction: column;
-  flex-basis: 500px;
+  width: 800px;
 }
 
 .quote {
   font-size: 36px;
   font-style: italic;
+  color: #1f2937;
+  margin-left: 50px;
 }
 
 .author {
   align-self: flex-end;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-right: 70px;
+}
+
+.container-four {
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  display: flex;
+  color: white;
+  border-radius: 10px;
+  text-align: start;
+  flex-basis: 800px;
+  justify-content: space-between;
+  padding: 40px 70px;
+}
+
+.sign-up-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3px;
+  gap: 7px;
+}
+
+.first {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.second {
+  font-size: 12px;
+}
+
+.sign-btn {
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  padding: 5px 35px;
 }
 
 /* GENERAL STYLES END */
 
 /* FOOTER START */
 
-footer {
-  margin-top: auto;
-  display: flex;
+.container-five {
   background-color: #1f2937;
-  color: white;
+  display: flex;
   justify-content: center;
+  color: white;
+  height: 80px;
+  align-items: center;
 }
+
+/* FOOTER END */
